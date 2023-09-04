@@ -12,8 +12,8 @@ print("Volume balok adalah =", round(volume_balok))
 
 # Volume Tabung
 print("Volume Tabung")
-jari_jari_tabung = int(input("Masukkan jari-jari tabung = "))
-tinggi_tabung = int(input("Masukkan tinggi tabung: "))
+jari_jari_tabung = float(input("Masukkan jari-jari tabung = "))
+tinggi_tabung = float(input("Masukkan tinggi tabung: "))
 
 volume_tabung = 3.14 * jari_jari_tabung * 2 * tinggi_tabung
 
